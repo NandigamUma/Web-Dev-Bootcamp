@@ -1,0 +1,30 @@
+<!--Display paragraph only when div tag is hovered using pseudo class in the html
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 7</title>
+	<style>
+		.hide{
+			display: none;
+		}
+		.abc:hover + .hide{
+			display: block;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hover demo</h1>
+	
+	<div class="abc">HOVER DEMO</div>
+		<div class="hide">
+			<p>
+				HDFC Bank Limited is an Indian banking and financial services company, headquartered in Mumbai, Maharashtra. HDFC Bank is India’s largest private sector bank by assets and by market capitalisation as of April 2021. It is the third largest company by market capitalisation on the Indian stock exchanges.
+		</div>
+
+	
+</body>
+</html>
